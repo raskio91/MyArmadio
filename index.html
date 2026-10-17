@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Armadio</title>
+<meta name="description" content="Il tuo armadio in tasca: capi fotografati e outfit.">
+<meta name="theme-color" content="#EEEFEA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151917" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Armadio">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<main id="view" aria-live="polite"></main>
+<nav class="tabbar" aria-label="Sezioni">
+  <button class="tab" data-act="tab" data-tab="wardrobe">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 6.5a2 2 0 1 1 2.6 1.9c-.4.2-.6.5-.6.9V10"/><path d="M12 10L3 17.5h18z"/></svg>
+    <span>Armadio</span>
+  </button>
+  <button class="tab" data-act="tab" data-tab="outfits">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="7" height="9" rx="2"/><rect x="13" y="3" width="7" height="5" rx="2"/><rect x="13" y="10" width="7" height="11" rx="2"/><rect x="4" y="14" width="7" height="7" rx="2"/></svg>
+    <span>Outfit</span>
+  </button>
+</nav>
+<div id="toast" role="status"></div>
+<noscript>Per usare Armadio attiva JavaScript.</noscript>
+</body>
+</html>
